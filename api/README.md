@@ -6,6 +6,9 @@ The api is created with NodeJs based in Typescript and Yarn package. Use `yarn i
 
 ## DEPENDENCES
 - express
+- reflect-metadata
+- sqlite3
+- typeorm
 #
 
 ## DEV DEPENDENCE
@@ -23,3 +26,10 @@ Depend to convert automatically TS to JS, use it to run your API, to install use
 You can create a script in `package.json` to be easy your command, for example: `"scripts": {"dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"},`.
 With `--transpile-only` the server don't look the types and `--ignore-watch node_modules` ignore the directory when run the program. 
 #
+
+## SQLITE
+`yarn add sqlite3`
+#
+
+## TYPEORM
+`yarn add typeorm reflect-metadata`
